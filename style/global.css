@@ -56,20 +56,25 @@ html {
     font-size: var(--fs-base);
     line-height: 1.6;
     color: var(--text-color-primary);
-}
+  
+    overflow-x: hidden;
+  
+    scroll-behavior: smooth;
+  }
 
-body {
+  body {
     background-color: var(--bg-color);
-}
+    overflow-x: hidden;
+  }
 
-h1,
-h2,
-h3 {
+  h1,
+  h2,
+  h3 {
     line-height: 1.2;
     color: var(--text-color-primary);
     font-weight: var(--fw-bold);
-    letter-spacing: -0.04em;
-}
+    letter-spacing: -0.04rem;
+  }
 
 h1 {
     font-size: var(--fs-2xl);
