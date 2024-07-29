@@ -89,6 +89,21 @@ a {
     /* inherit herda do pai(html) a cor */
 }
 
+/* Essa estratégia é utilizada também 
+    para poder fazer o degrade no hover */
+a:hover {
+    background: linear-gradient(
+        90deg,
+        var(--brand-color-secondary) 0%,
+        var(--brand-color-primary) 100%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
 /* Regra que faz com que uma lista não receba
     por padrão o comportamento de lista
     
