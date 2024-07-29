@@ -37,6 +37,18 @@
     gap: 1rem;
 }
 
+.flex {
+    display: flex;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.grid {
+    display: grid;
+}
+
 /* a variavel max-width em telas grandes passa a ter
 o tamanho maximo de 1280px ou 80 rem (1280 / 16) */
 @media (width >= 80em) {
