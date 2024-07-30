@@ -117,6 +117,11 @@ ul[role="list"] {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
 /* Esse media altera o comportamento do root
     quando em telas maiores fazendo que as 
     variaveis passe a ter um tamanho maior */
