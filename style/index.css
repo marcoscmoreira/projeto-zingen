@@ -10,3 +10,4 @@
 /* Importe abaixo é feito somente nas telas
     com pixel acima de 80rem */
 @import url(features.css) (width >= 80rem);
+@import url(pricing.css);
